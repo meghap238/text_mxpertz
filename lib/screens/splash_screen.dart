@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // TODO: implement initState
     super.initState();
     Future.delayed(
-      Duration(seconds: 2),
+      Duration(seconds: 3),
           () {
         return Navigator.of(context).push(MaterialPageRoute(builder: (context) => OnboardingScreen(),));
         // Navigate to main screen
